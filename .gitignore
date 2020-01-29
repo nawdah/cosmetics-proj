@@ -1,1 +1,4 @@
 .ipynb_checkpoints/sephora_scraping-checkpoint.ipynb
+config.py
+__pycache__/
+.ipynb_checkpoints/*
