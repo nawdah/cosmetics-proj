@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-# Sephora and Ulta ETL
-
-## Project Proposal
-
-Our group set out to create a user-friendly tool/database to address the need of consumers to identify the different ingredients that make
-up the personal hygiene/beauty products that we as consumers use daily. Whether the consumer has sensitive skin, dry skin, oily hair, allergies to a specific ingredient or simply wants to search by price or peer recommendations, our tool seeks to empower the user to be able to navigate the various product offerings with the confidence that this tool has done the homework for them and has narrowed the products to those that fit the customer’s needs.
-
-### Initial Project Set-Up
-
-When we visualized what we wanted to accomplish with the project and what the timeline was, we initially set out to obtain various variables (skin type, top grossing products, etc.) on a wider set of products/product categories (mascara, eye brows etc.), on two websites (sephora.com and ulta.com). Given our time constraints however, we decided to downscale the project to a narrower product and variable set. Importantly, however given the way that we set up the code, the project can easily be modified and scaled to extract any additional products and variables that the user may need/want by changing the search list.
-
-![Image1](https://github.com/nawdah/cosmetics-proj/tree/master/pictures/schema1.PNG)
-![Image2](https://github.com/nawdah/cosmetics-proj/tree/master/pictures/schema2.PNG)
-
-
-Given the quick turnaround (five days from start to finish), our timeline was compressed. Web scraping was completed by Tuesday evening, Cleaning was done by Wednesday and analysis was conducted Wednesday evening and Thursday morning. 
-=======
 # Sephora and Ulta ETL 
 
 ## Project Proposal
@@ -81,7 +63,7 @@ We used the transformed dataframes and merged the data both on postgres and usin
 A snippet of the loaded merged dataframe is included here: 
 		
 
-![image4](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/schema6.PNG)
+![image4](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/db.PNG)
 		
 
 We were able to analyze the average consumer rating related to product type. Both stores visualizations are shown below.
@@ -96,5 +78,3 @@ Interestingly enough, eyeliner was the least favorable product among consumers. 
 ## Conclusion
 
 Our object to begin with was to create an application that would allow consumers to filter out products based on their skin type and allergies. However, due to the time constraint, this seemd very improbable. The application would have required using JavaScript which we haven't gotten to yet. In the future, this is definitely a project worth pursuing further as there is no current application that parses through ingredients and details of products. 
->>>>>>> master
-
