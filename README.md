@@ -10,6 +10,7 @@ When we visualized what we wanted to accomplish with the project and what the ti
 changing the search list.
 
 ![image1](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/schema1.PNG)
+![image2](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/schema2.PNG)
 
 Given the quick turnaround (five days from start to finish), our timeline was compressed. As a group we agreed that all the web-scrapping needed to be done by Monday (day - 2), all the data transformation completed by Tuesday (day - 3), to go live and complete documentation by Wednesday (day - 4), and on Thursday analyze, submit and present our findings to the class.
 
@@ -31,7 +32,24 @@ Similarly to Sephora, we were initially stumped to why some of our data was able
 
 ### Transformation
 
-Once we were able to create dataframes of both Ulta and Sephora products, we cleaned each dataframe individually. The 'Product Type' column was changed from the URL code to a name more repersentative of the product type it was. We changed the price values to int and with ratings we spliced all the values that were after the numerical rating value. 
+Once we were able to create dataframes of both Ulta and Sephora products, we cleaned each dataframe individually. We needed to determine data integrity and interpret the data. This included adding the store that the product was available on (in this case Sephora and Ulta), rename the product types, change the price variable from a string to a numeric object, make the ratings numeric as well and append the domain URL to the URLs for the products. 
 
+Code for this can be seen here and also in the respectful ipython notebooks:
 
+![image3](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/schema5.PNG)
+
+### Loading
+
+We used the transformed dataframes and merged the data both on postgres and using a pandas dataframe. Some product and brand names were named the same so we merged those values together. Now we could filter through the data however we wanted to, whether we wanted to look for a specific brand or not. 
+
+A snippet of the loaded merged dataframe is included here: 
+
+![image4](![image3](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/schema6.PNG)
+
+We were able to analyze the average consumer rating related to product type. Both stores visualizations are shown below.
+
+![image5](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/sephora.PNG)
+![image6](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/ulta.PNG)
+
+Interestingly enough, eyeliner was the least favorable product among consumers. This data is insightful to the cosmetic industry to illustrate the demand and quality preference of consumers in this market. 
 
