@@ -2,4 +2,10 @@
 config.py
 __pycache__/
 .ipynb_checkpoints/*
+<<<<<<< HEAD
 \assets
+=======
+index.html
+product-type.html
+style.css
+>>>>>>> master
