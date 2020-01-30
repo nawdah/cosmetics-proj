@@ -1,4 +1,10 @@
-.top-buffer { 
-    margin-top:20px; 
+.i-am-centered{
+    margin: inherit; 
+    max-width: 600px;
+    float: none;
 }
 
+.align-items-start{
+    padding: 20px;
+    margin-bottom: 30px;
+}
