@@ -1,4 +1,4 @@
-# Be-YOU-ty Personalization
+# Sephora and Ulta ETL
 
 ## Project Proposal
 
