@@ -9,8 +9,8 @@ up the personal hygiene/beauty products that we as consumers use daily. Whether 
 
 When we visualized what we wanted to accomplish with the project and what the timeline was, we initially set out to obtain various variables (skin type, top grossing products, etc.) on a wider set of products/product categories (mascara, eye brows etc.), on two websites (sephora.com and ulta.com). Given our time constraints however, we decided to downscale the project to a narrower product and variable set. Importantly, however given the way that we set up the code, the project can easily be modified and scaled to extract any additional products and variables that the user may need/want by changing the search list.
 
-![Image1](/pictures/schema1.png)
-![Image2](/pictures/schema2.png)
+![Image1](https://github.com/nawdah/cosmetics-proj/tree/master/pictures/schema1.PNG)
+![Image2](https://github.com/nawdah/cosmetics-proj/tree/master/pictures/schema2.PNG)
 
 
 Given the quick turnaround (five days from start to finish), our timeline was compressed. Web scraping was completed by Tuesday evening, Cleaning was done by Wednesday and analysis was conducted Wednesday evening and Thursday morning. 
