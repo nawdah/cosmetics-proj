@@ -63,14 +63,14 @@ We used the transformed dataframes and merged the data both on postgres and usin
 A snippet of the loaded merged dataframe is included here: 
 		
 
-![image4](![image3](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/schema6.PNG)
+![image4](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/schema6.PNG)
 		
 
 We were able to analyze the average consumer rating related to product type. Both stores visualizations are shown below.
 		
 
-![image5](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/sephora.PNG)
-![image6](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/ulta.PNG)
+![image5](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/sephora.png)
+![image6](https://github.com/nawdah/cosmetics-proj/blob/master/pictures/ulta.png)
 		
 
 Interestingly enough, eyeliner was the least favorable product among consumers. This data is insightful to the cosmetic industry to illustrate the demand and quality preference of consumers in this market. 
